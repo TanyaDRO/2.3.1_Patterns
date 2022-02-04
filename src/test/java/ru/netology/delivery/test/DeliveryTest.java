@@ -2,21 +2,17 @@ package ru.netology.delivery.test;
 
 import com.codeborne.selenide.Condition;
 import lombok.val;
-import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import ru.netology.delivery.data.DataGenerator;
 
 import java.time.Duration;
-import java.util.Locale;
 
 import static com.codeborne.selenide.Selectors.withText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
-import static java.awt.SystemColor.info;
 
 class DeliveryTest {
 
